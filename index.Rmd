@@ -98,6 +98,7 @@ df <- tibble::tribble(
 DT::datatable(df, 
                      rownames = FALSE,
                      options = list(pageLength = 20,
-                                   order = list(list(0, 'asc'), list(1, 'asc'))))
+                                   order = list(list(0, 'asc'), list(1, 'asc')),
+                                   columnDefs = list(list(className = 'dt-center', targets = 0:2))))
 
 ```
