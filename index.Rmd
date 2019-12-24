@@ -1,8 +1,6 @@
 ---
 title: "Tidysearch"
-output: 
-  html_document:
-    theme: flatly
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
