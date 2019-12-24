@@ -1,6 +1,10 @@
 ---
 title: "Tidysearch"
-output: html_document
+author: "Jamie Lendrum"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  html_document:
+    theme: united
 ---
 
 ```{r setup, include=FALSE}
@@ -15,6 +19,8 @@ Below is a searchable table containing base R functions and their equivalent tid
 I'm not a fountain of all knowledge, so if you would like to contribute to this table please submit a pull request (or open an issue).
 
 Happy hunting!
+
+-------------------
 
 ```{r include=FALSE}
 df <- tibble::tribble(
